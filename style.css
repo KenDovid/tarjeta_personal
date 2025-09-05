@@ -1,3 +1,47 @@
 body{
     font-family: "Monda", sans-serif;
+    background-color: #EEEFE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: #D1D8BE;
+    padding: 20px; 
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.card img{
+    border-radius: 50%;
+    width: 120px;
+}
+
+.card h1{
+    font-size: 24px;
+    margin: 10px;
+}
+
+.card p{
+    font-size: 14px;
+    color: #135f43;
+}
+
+.buttons a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 10px; 
+    color: white;
+    background-color: #819A91;
+    border-radius: 10px;
+    transition: background 0.7s;
+}
+
+.buttons a:hover{
+    background-color: #3b4944;
 }
